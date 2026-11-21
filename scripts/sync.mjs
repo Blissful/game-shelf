@@ -292,6 +292,10 @@ async function resolveName(entry) {
 /* ------------------------------------------------------------------ main */
 async function main() {
   const config = await readJSON(CONFIG_FILE, {});
+  // Repository variables (BGG_USER, BGG_FRIENDS, SHELF_TITLE) override config.json, so a fork needs no file edits
+  if (process.env.BGG_USER) config.bggUser = process.env.BGG_USER;
+  if (process.env.BGG_FRIENDS) config.friends = process.env.BGG_FRIENDS.split(/[,\s]+/).filter(Boolean);
+  if (process.env.SHELF_TITLE) config.title = process.env.SHELF_TITLE;
   const owner = String(config.bggUser || "").trim();
   if (!MOCK && !TOKEN) throw new Error("BGG_TOKEN is missing. Register an app at https://boardgamegeek.com/applications and add the token as a repository secret named BGG_TOKEN.");
   const keep = new Set(config.includeStatuses || ["own", "preordered"]);
@@ -330,6 +334,8 @@ async function main() {
     }
     if (id) listIds.add(String(id)); else report.unresolved.push(e.raw);
   }
+
+  if (!owner && !listIds.size) throw new Error("No BGG username set. Add a repository variable BGG_USER (Settings → Secrets and variables → Actions → Variables) or set bggUser in config.json.");
 
   // 3) Details for everything
   const allIds = [...new Set([...coll.keys(), ...listIds])];

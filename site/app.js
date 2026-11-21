@@ -22,6 +22,7 @@ function loadPrefs() {
 function savePrefs() { try { localStorage.setItem("shelf-prefs", JSON.stringify(prefs)); } catch {} }
 
 /* ------------------------------------------------------------ helpers */
+const ownerLabel = () => (DATA.owner ? `${DATA.owner}’s` : "Owner’s");
 const range = (a, b, u = "") => (!isNum(a) && !isNum(b)) ? null : (!isNum(b) || a === b) ? `${a ?? b}${u}` : !isNum(a) ? `${b}${u}` : `${a}–${b}${u}`;
 const weightLabel = (w) => !isNum(w) || w <= 0 ? "—" : w < 1.8 ? "Light" : w < 2.5 ? "Medium-light" : w < 3.2 ? "Medium" : w < 3.8 ? "Medium-heavy" : "Heavy";
 const LANG = ["", "No text needed", "Some text", "Moderate text", "Lots of text", "Unplayable in another language"];
@@ -232,14 +233,14 @@ function openGame(id) {
     </div>
     <div class="sec"><h3>Ratings & plays</h3>
       <div class="ratings">
-        <div class="rbox"><div class="v">${isNum(g.myRating) ? g.myRating : "—"}</div><div class="l">His rating</div></div>
+        <div class="rbox"><div class="v">${isNum(g.myRating) ? g.myRating : "—"}</div><div class="l">${esc(ownerLabel())} rating</div></div>
         <div class="rbox"><div class="v">${isNum(g.bggRating) ? g.bggRating.toFixed(1) : "—"}</div><div class="l">BGG average${g.usersRated ? ` · ${g.usersRated.toLocaleString()} votes` : ""}</div></div>
         <div class="rbox"><div class="v">${fr != null ? fr.toFixed(1) : "—"}</div><div class="l">Friends' average</div></div>
         <div class="rbox"><div class="v">${g.numPlays || 0}</div><div class="l">${g.numPlays === 1 ? "play" : "plays"}${lastP ? ` · last ${lastP}` : ""}</div></div>
       </div>
       ${(g.friends || []).length ? `<div class="friends">${g.friends.map((f) => `${esc(f.user)} ${esc(f.rating)}`).join(" · ")}</div>` : ""}
     </div>
-    ${g.review ? `<div class="sec"><h3>His review</h3><blockquote class="review">${esc(g.review)}</blockquote></div>` : ""}
+    ${g.review ? `<div class="sec"><h3>${esc(ownerLabel())} review</h3><blockquote class="review">${esc(g.review)}</blockquote></div>` : ""}
     ${g.notes ? `<div class="sec"><h3>Notes</h3><p class="desc">${esc(g.notes)}</p></div>` : ""}
     ${desc ? `<div class="sec"><h3>About</h3><p class="desc clamp" id="desc">${esc(desc)}</p>${desc.length > 380 ? `<button class="more" id="moreBtn">Read more</button>` : ""}</div>` : ""}
     <div class="sec"><h3>Learn to play</h3><div class="links">
@@ -427,6 +428,7 @@ async function boot() {
   document.title = DATA.title || "Game Shelf";
   $("#title").textContent = DATA.title || "Game Shelf";
   $("#demo").hidden = !DATA.demo;
+  $("#sort").querySelector('[value="my"]').textContent = `${ownerLabel()} rating`;
   // If nothing is marked owned (e.g. a list-only shelf), show everything
   if (prefs.status === "own" && !games.some((g) => (g.status || []).includes("own"))) { prefs.status = "all"; $("#status").value = "all"; }
   const when = DATA.generated ? new Date(DATA.generated).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }) : null;

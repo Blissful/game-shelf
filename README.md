@@ -1,42 +1,51 @@
-# Slayde's Game Shelf
+# Game Shelf
 
-A cosy virtual board game shelf built from a BoardGameGeek collection. It's a free static website on GitHub Pages and updates itself from BGG every night.
+**Your BoardGameGeek collection on a cosy virtual shelf.** It's a free static website on GitHub Pages and updates itself from BGG every night. Anyone can run one for their own collection; no coding needed.
+
+**Live example:** https://blissful.github.io/game-shelf/
 
 - **Covers or spines:** real box art from BGG, or a shelf of spines coloured from each box.
 - **Arrange the shelves:** base game with its expansions, by theme, play style, weight, last played, kind, status or decade, or one long row.
-- **Sort:** recently played, most played, his rating, friends' rating, BGG rating or rank, newest, heaviest, most players or longest.
+- **Sort:** recently played, most played, the owner's rating, friends' rating, BGG rating or rank, newest, heaviest, most players or longest.
 - **What shall we play?:** filter by player count (or "best at" from BGG's community vote), time, weight, play style, theme and how much text is on the table. Then let it pick one for you.
-- **Game card:** players and best count, time, weight, age and language dependence. Shows his rating, the BGG average and rank, friends' ratings, number of plays and when it was last played, and his BGG review. Links to BGG's how-to-play videos, the rulebooks on BGG and the BGG page. Base games link to their expansions and the other way round.
+- **Game card:** players and best count, time, weight, age and language dependence. Shows the owner's rating and review, the BGG average and rank, friends' ratings, number of plays and when it was last played. Links to BGG's how-to-play videos, the rulebooks on BGG and the BGG page. Base games link to their expansions and the other way round.
 - **Room:** lights on or off, a torch in the dark, a lively shelf, a visiting cat, zoom, full screen and a "just the shelf" view. Everything has keyboard shortcuts (press `?`).
 
-Everything comes from BGG. To add a game, log it on BGG; it appears on the shelf after the next sync.
+Everything comes from BGG. To add a game, log it in your BGG collection; it appears on the shelf after the next sync.
 
 ---
 
-## One-time setup (about 15 minutes)
+## Make your own shelf (about 15 minutes, no coding)
 
-1. **Put this folder in a GitHub repository.** Create a new repository on github.com (e.g. `game-shelf`; public is free for Pages) and upload all the files, including the hidden `.github` folder. With git: `git init && git add . && git commit -m "Game shelf" && git push`.
-2. **Get a BGG API token.** BGG now requires one for its data API. Log in to BGG and go to **https://boardgamegeek.com/applications**. Register an application (name it "Game Shelf" and choose non-commercial use), then create a token for it.
-3. **Give the token to GitHub.** In the repository, go to **Settings → Secrets and variables → Actions → New repository secret**. Set Name `BGG_TOKEN` and paste the token as the value.
-4. **Turn on Pages.** Go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-5. **Run the first sync.** Go to the **Actions** tab, choose **Sync from BoardGameGeek and publish**, then **Run workflow**. The first run takes a few minutes because it fetches every game, the plays and the covers.
-6. **Open the shelf** at `https://<github-username>.github.io/<repo-name>/`. Share that link with anyone; viewers don't need an account.
+1. **Copy this repository.** Click **Use this template → Create a new repository** (or **Fork**). Make it **public**, since GitHub Pages is free for public repositories.
+2. **Get a BGG API token.** BGG has required one for its data API since late 2025. Log in to BGG and go to **https://boardgamegeek.com/applications**, then register an application and choose non-commercial use. **BGG reviews every application, which can take a week or more.** Once it's approved, click **Tokens** next to your application and create one.
+3. **Tell your copy who you are.** In your repository, go to **Settings → Secrets and variables → Actions**:
+   - **Secrets** tab → New repository secret: `BGG_TOKEN` = your token.
+   - **Variables** tab → New repository variable: `BGG_USER` = your BGG username.
+   - Optional variables: `BGG_FRIENDS` = friends' BGG usernames separated by commas (their ratings show as "Friends' rating"), and `SHELF_TITLE` = a custom heading.
+4. **Turn on Pages:** **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+5. **Run the first sync:** **Actions** tab → **Sync from BoardGameGeek and publish** → **Run workflow**. The first run takes a few minutes because it fetches every game, the plays and the box art.
+6. **Open your shelf** at `https://<your-github-username>.github.io/<repository-name>/` and share the link. Viewers don't need an account.
 
-After that it syncs every night by itself. To sync right away, press **Run workflow** again.
+After that it syncs every night by itself. **Run workflow** syncs right away.
 
-> His BGG collection and plays need to be public (the BGG default) for the sync to see them.
+Until the token is added, the workflow still publishes the site with a demo shelf, so you can see it working.
 
-## Settings: `config.json`
+> Your BGG collection and plays need to be public (the BGG default) for the sync to see them.
+
+## More settings: `config.json`
+
+Repository variables override the first three fields, so most people never need to edit this file.
 
 | Field | What it does |
 |---|---|
-| `title` | Heading on the page |
-| `bggUser` | Whose BGG collection to show (`Slayde`) |
-| `friends` | BGG usernames of friends. Their BGG ratings of these games show as "Friends' rating". |
+| `title` | Heading on the page (default: "<username>'s Game Shelf") |
+| `bggUser` | Whose BGG collection to show |
+| `friends` | BGG usernames of friends whose ratings to include |
 | `includeStatuses` | Which BGG collection statuses to fetch. The page shows **Owned** by default; the **Show** menu switches to the others. |
-| `includeRated` | Also fetch games he has rated or reviewed but doesn't own (shown under **Show → Rated, not owned**) |
-| `includePlays` | Fetch his logged plays, for play counts and "last played" |
-| `videoLanguages` | Preferred languages for BGG's how-to-play videos, in order |
+| `includeRated` | Also fetch games the owner has rated or reviewed but doesn't own (**Show → Rated, not owned**) |
+| `includePlays` | Fetch logged plays, for play counts and "last played" |
+| `videoLanguages` | Preferred languages for BGG's how-to-play videos, in order, e.g. `["Finnish", "English"]` |
 
 ## Optional tweaks: `extras.json`
 
@@ -44,15 +53,15 @@ Per-game overrides keyed by BGG id or exact name: a favourite how-to video (`how
 
 ## Optional fallback: `games.txt`
 
-For a game he doesn't want to log on BGG. Enter one name, BGG id or BGG link per line. After a sync, `data/sync-report.json` shows what each line matched. `docs/photo-list.txt` keeps the list read from the shelf photo; use it to check that BGG has everything.
+For games you don't want to log on BGG. Enter one name, BGG id or BGG link per line. After a sync, `data/sync-report.json` shows what each line matched.
 
 ## Running it locally
 
 ```bash
 npm install
-BGG_TOKEN=your-token npm run sync     # writes site/data/games.json and site/covers/
-npm run serve                         # http://localhost:8080
-npm run test:sync                     # offline test against the sample BGG replies in test/fixtures
+BGG_TOKEN=your-token BGG_USER=your-username npm run sync   # writes site/data/games.json and site/covers/
+npm run serve                                              # http://localhost:8080
+npm run test:sync                                          # offline test against the sample BGG replies in test/fixtures
 ```
 
 ## How it fits together
@@ -62,4 +71,4 @@ BoardGameGeek  ──(nightly GitHub Action: scripts/sync.mjs)──▶  site/da
    collection · game details · plays · videos · friends' ratings
 ```
 
-Data from BoardGameGeek is used under the BGG XML API terms (non-commercial, with attribution).
+The site itself is plain HTML, CSS and JavaScript in `site/`, with no build step. The code is MIT licensed. Board game data and images belong to BoardGameGeek and its contributors and are used under the BGG XML API terms (non-commercial, with attribution: "Powered by BoardGameGeek").

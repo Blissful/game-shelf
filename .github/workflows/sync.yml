@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+      BGG_USER: ${{ vars.BGG_USER }}
+      BGG_FRIENDS: ${{ vars.BGG_FRIENDS }}
+      SHELF_TITLE: ${{ vars.SHELF_TITLE }}
     steps:
       - uses: actions/checkout@v4
 

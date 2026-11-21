@@ -1,9 +1,18 @@
 {
-  "title": "Slayde's Game Shelf",
-  "bggUser": "Slayde",
+  "title": "",
+  "bggUser": "",
   "friends": [],
-  "includeStatuses": ["own", "preordered", "wishlist", "prevowned", "fortrade", "wanttoplay"],
+  "includeStatuses": [
+    "own",
+    "preordered",
+    "wishlist",
+    "prevowned",
+    "fortrade",
+    "wanttoplay"
+  ],
   "includeRated": true,
   "includePlays": true,
-  "videoLanguages": ["English", "Finnish"]
+  "videoLanguages": [
+    "English"
+  ]
 }
