@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1f2b26">
+<meta name="description" content="A board game collection on a cosy wooden shelf.">
+<title>Game Shelf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top" id="top">
+  <div class="top-row">
+    <div class="brand">
+      <h1 id="title">Game Shelf</h1>
+      <p id="subtitle">Loading the shelf…</p>
+    </div>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search the shelf  ( / )" autocomplete="off" aria-label="Search games">
+    </div>
+  </div>
+  <nav class="controls" aria-label="Shelf controls">
+    <div class="seg" role="group" aria-label="View">
+      <button data-view="covers" class="on" title="Box covers (V)">Covers</button>
+      <button data-view="spines" title="Box spines (V)">Spines</button>
+    </div>
+    <label class="ctl">Arrange
+      <select id="arrange">
+        <option value="family">Base game + its expansions</option>
+        <option value="theme">By theme</option>
+        <option value="style">By play style</option>
+        <option value="weight">By weight</option>
+        <option value="played">By last played</option>
+        <option value="kind">By kind</option>
+        <option value="status">By status</option>
+        <option value="decade">By decade</option>
+        <option value="row">One long row</option>
+      </select>
+    </label>
+    <label class="ctl">Sort
+      <select id="sort">
+        <option value="name">Name A–Z</option>
+        <option value="recent">Recently played</option>
+        <option value="plays">Most played</option>
+        <option value="my">His rating</option>
+        <option value="friends">Friends' rating</option>
+        <option value="bgg">BGG rating</option>
+        <option value="rank">BGG rank</option>
+        <option value="newest">Newest first</option>
+        <option value="heavy">Heaviest first</option>
+        <option value="players">Most players</option>
+        <option value="long">Longest play</option>
+      </select>
+    </label>
+    <label class="ctl">Show
+      <select id="status">
+        <option value="own">Owned</option>
+        <option value="own+">Owned + pre-ordered</option>
+        <option value="rated">Rated, not owned</option>
+        <option value="wishlist">Wishlist</option>
+        <option value="prev">Previously owned</option>
+        <option value="all">Everything</option>
+      </select>
+    </label>
+    <button class="btn accent" id="playBtn" title="Filters and a random pick">What shall we play?</button>
+    <div class="seg icons" role="group" aria-label="Room">
+      <button id="zoomOut" title="Zoom out (−)">−</button>
+      <button id="zoomIn" title="Zoom in (+)">+</button>
+      <button id="lightBtn" title="Lights on / off (L)" aria-pressed="false">☾</button>
+      <button id="livelyBtn" title="Lively shelf" aria-pressed="false">✦</button>
+      <button id="catBtn" title="Call the cat (C)">🐈</button>
+      <button id="fullBtn" title="Full screen (F)">⤢</button>
+      <button id="hideBtn" title="Just the shelf (H)">◱</button>
+      <button id="helpBtn" title="Player aid: keyboard shortcuts (?)">?</button>
+    </div>
+  </nav>
+  <div class="active-filters" id="activeFilters" hidden></div>
+</header>
+
+<button class="unhide" id="unhide" hidden title="Show the menu (H)">Menu</button>
+<div class="demo" id="demo" hidden>Demo shelf: these are the games read from the photo. Run the BGG sync to fill it with Slayde's real collection, covers and plays.</div>
+
+<main class="room" id="room">
+  <div id="shelves" class="shelves" aria-live="polite"></div>
+  <div class="cat" id="cat" hidden aria-hidden="true"></div>
+</main>
+
+<footer class="foot" id="foot"></footer>
+
+<div class="dark" id="dark" aria-hidden="true"></div>
+<div class="motes" id="motes" aria-hidden="true"></div>
+
+<div class="overlay" id="overlay" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div></div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

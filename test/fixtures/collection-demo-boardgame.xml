@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items totalitems="2" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse" pubdate="Sat, 21 Nov 2026 10:00:00 +0000">
+  <item objecttype="thing" objectid="266192" subtype="boardgame" collid="1">
+    <name sortindex="1">Wingspan</name><yearpublished>2019</yearpublished>
+    <image>https://cf.geekdo-images.com/x/img/wingspan.jpg</image><thumbnail>https://cf.geekdo-images.com/x/thumb/wingspan.jpg</thumbnail>
+    <stats minplayers="1" maxplayers="5" minplaytime="40" maxplaytime="70" playingtime="70" numowned="1"><rating value="9"><usersrated value="1"/><average value="8.0"/></rating></stats>
+    <status own="1" prevowned="0" fortrade="0" want="0" wanttoplay="0" wanttobuy="0" wishlist="0" preordered="0" lastmodified="2024-05-01 12:00:00"/>
+    <numplays>12</numplays><comment>Birthday present</comment>
+  </item>
+  <item objecttype="thing" objectid="13" subtype="boardgame" collid="2">
+    <name sortindex="5">CATAN</name><yearpublished>1995</yearpublished>
+    <stats minplayers="3" maxplayers="4"><rating value="N/A"><usersrated value="1"/></rating></stats>
+    <status own="0" prevowned="1" fortrade="0" want="0" wanttoplay="0" wanttobuy="0" wishlist="0" preordered="0" lastmodified="2020-01-01 10:00:00"/>
+    <numplays>0</numplays>
+  </item>
+</items>

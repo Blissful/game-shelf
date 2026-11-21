@@ -1,0 +1,7 @@
+{
+  "_help": "Optional per-game tweaks, keyed by BGG id or exact game name. Fields: howToPlay (link to a favourite how-to-play video or guide), rulesUrl, notes, myRating, color (spine colour, e.g. #2d5f8a), themes, styles, description, name.",
+  "Wingspan": {
+    "howToPlay": "https://www.youtube.com/results?search_query=wingspan+how+to+play+watch+it+played",
+    "notes": "Example entry: delete or edit me."
+  }
+}

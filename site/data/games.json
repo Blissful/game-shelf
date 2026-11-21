@@ -1,0 +1,1635 @@
+{
+ "title": "Slayde's Game Shelf",
+ "owner": "Slayde",
+ "friends": [],
+ "generated": null,
+ "demo": true,
+ "games": [
+  {
+   "id": "demo-captain-sonar",
+   "name": "Captain Sonar",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-aeon-s-end",
+   "name": "Aeon's End",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-arkham-horror",
+   "name": "Arkham Horror",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-lord-of-the-rings",
+   "name": "The Lord of the Rings",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-potion-explosion",
+   "name": "Potion Explosion",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-flamme-rouge",
+   "name": "Flamme Rouge",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-peacemakers-horrors-of-war",
+   "name": "Peacemakers: Horrors of War",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-quest-for-el-dorado",
+   "name": "The Quest for El Dorado",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-quest-for-el-dorado-heroes-hexes",
+   "name": "The Quest for El Dorado: Heroes & Hexes",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-the-quest-for-el-dorado"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-space-base",
+   "name": "Space Base",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-wormholes",
+   "name": "Wormholes",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-sheriff-of-nottingham",
+   "name": "Sheriff of Nottingham",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-pelastaja",
+   "name": "Pelastaja",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-star-wars-x-wing-miniatures-game",
+   "name": "Star Wars: X-Wing Miniatures Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-world-of-tanks-miniatures-game",
+   "name": "World of Tanks: Miniatures Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-aqua",
+   "name": "Aqua",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-viscounts-of-the-west-kingdom",
+   "name": "Viscounts of the West Kingdom",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-keyper",
+   "name": "Keyper",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-smart10",
+   "name": "Smart10",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-ashes-rise-of-the-phoenixborn",
+   "name": "Ashes: Rise of the Phoenixborn",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-castles-of-mad-king-ludwig",
+   "name": "Castles of Mad King Ludwig",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-murano",
+   "name": "Murano",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-quacks-of-quedlinburg",
+   "name": "The Quacks of Quedlinburg",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-my-city",
+   "name": "My City",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-51st-state-master-set",
+   "name": "51st State: Master Set",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-cry-havoc",
+   "name": "Cry Havoc",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-undaunted-normandy",
+   "name": "Undaunted: Normandy",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-equinox",
+   "name": "Equinox",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-carcassonne",
+   "name": "Carcassonne",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-puerto-rico",
+   "name": "Puerto Rico",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-amun-re",
+   "name": "Amun-Re",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-photosynthesis",
+   "name": "Photosynthesis",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-metal-gear-solid-the-board-game",
+   "name": "Metal Gear Solid: The Board Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-terraforming-mars-ares-expedition",
+   "name": "Terraforming Mars: Ares Expedition",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-b-renpark",
+   "name": "Bärenpark",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-lord-of-the-rings-duel-for-middle-earth",
+   "name": "The Lord of the Rings: Duel for Middle-earth",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dragomino",
+   "name": "Dragomino",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dark-souls-the-board-game",
+   "name": "Dark Souls: The Board Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dark-souls-the-board-game-iron-keep-expansion",
+   "name": "Dark Souls: The Board Game – Iron Keep Expansion",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-dark-souls-the-board-game"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dark-souls-the-board-game-phantoms-expansion",
+   "name": "Dark Souls: The Board Game – Phantoms Expansion",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-dark-souls-the-board-game"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dark-souls-the-board-game-characters-expansion",
+   "name": "Dark Souls: The Board Game – Characters Expansion",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-dark-souls-the-board-game"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-tsuro",
+   "name": "Tsuro",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dice-forge",
+   "name": "Dice Forge",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-bloodborne-the-card-game",
+   "name": "Bloodborne: The Card Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dinosaur-world",
+   "name": "Dinosaur World",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-lord-of-the-rings-the-card-game",
+   "name": "The Lord of the Rings: The Card Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-lord-of-the-rings-the-card-game-the-fellowship-of-the-ring-saga-expansion",
+   "name": "The Lord of the Rings: The Card Game – The Fellowship of the Ring Saga Expansion",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-the-lord-of-the-rings-the-card-game"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-fog-of-love",
+   "name": "Fog of Love",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-unlock-escape-adventures",
+   "name": "Unlock! Escape Adventures",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-balloon-pop",
+   "name": "Balloon Pop",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-blue-lagoon",
+   "name": "Blue Lagoon",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-thurn-and-taxis",
+   "name": "Thurn and Taxis",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-azul",
+   "name": "Azul",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-twilight-struggle",
+   "name": "Twilight Struggle",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-xcom-the-board-game",
+   "name": "XCOM: The Board Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-formula-d",
+   "name": "Formula D",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dungeon-petz",
+   "name": "Dungeon Petz",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-katamino",
+   "name": "Katamino",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-smile",
+   "name": "Smile",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-port-royal",
+   "name": "Port Royal",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-caylus",
+   "name": "Caylus",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dominion",
+   "name": "Dominion",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dominion-prosperity",
+   "name": "Dominion: Prosperity",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-dominion"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-yamata",
+   "name": "Yamataï",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-takenoko",
+   "name": "Takenoko",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-seasons",
+   "name": "Seasons",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-lords-of-xidit",
+   "name": "Lords of Xidit",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-galaxy-trucker",
+   "name": "Galaxy Trucker",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-roll-player",
+   "name": "Roll Player",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-copenhagen-roll-write",
+   "name": "Copenhagen: Roll & Write",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-splendor",
+   "name": "Splendor",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-wingspan",
+   "name": "Wingspan",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-mariposas",
+   "name": "Mariposas",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-harmonies",
+   "name": "Harmonies",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-star-realms",
+   "name": "Star Realms",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-crew-the-quest-for-planet-nine",
+   "name": "The Crew: The Quest for Planet Nine",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-citadels",
+   "name": "Citadels",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-air-land-sea-spies-lies-supplies",
+   "name": "Air, Land & Sea: Spies, Lies & Supplies",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-forest-shuffle",
+   "name": "Forest Shuffle",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-for-sale",
+   "name": "For Sale",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-codenames",
+   "name": "Codenames",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-settlers-of-catan-card-game",
+   "name": "The Settlers of Catan Card Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-scout",
+   "name": "SCOUT",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-bohnanza",
+   "name": "Bohnanza",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-star-munchkin",
+   "name": "Star Munchkin",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-catan",
+   "name": "Catan",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-ghost-stories",
+   "name": "Ghost Stories",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-bunny-kingdom",
+   "name": "Bunny Kingdom",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-king-of-tokyo",
+   "name": "King of Tokyo",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-sushi-go",
+   "name": "Sushi Go!",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-a-fake-artist-goes-to-new-york",
+   "name": "A Fake Artist Goes to New York",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-game",
+   "name": "The Game",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-century-spice-road",
+   "name": "Century: Spice Road",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-ra",
+   "name": "Ra",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-amul",
+   "name": "Amul",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-mind",
+   "name": "The Mind",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-patchwork",
+   "name": "Patchwork",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-taco-cat-goat-cheese-pizza",
+   "name": "Taco Cat Goat Cheese Pizza",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-wizard",
+   "name": "Wizard",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-rage",
+   "name": "Rage",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dixit",
+   "name": "Dixit",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dinner-in-paris",
+   "name": "Dinner in Paris",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-red-rising",
+   "name": "Red Rising",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-cosmic-encounter",
+   "name": "Cosmic Encounter",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dale-of-merchants-collection",
+   "name": "Dale of Merchants Collection",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-isle-of-cats",
+   "name": "The Isle of Cats",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-terraforming-mars",
+   "name": "Terraforming Mars",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-elysium",
+   "name": "Elysium",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-ticket-to-ride",
+   "name": "Ticket to Ride",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-the-great-wall",
+   "name": "The Great Wall",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-alchemists",
+   "name": "Alchemists",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-kluster",
+   "name": "Kluster",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-mag-blast-third-edition",
+   "name": "Mag·Blast (Third Edition)",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-dune-imperium",
+   "name": "Dune: Imperium",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-flamecraft",
+   "name": "Flamecraft",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-thunder-alley",
+   "name": "Thunder Alley",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-cascadia",
+   "name": "Cascadia",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-villagers",
+   "name": "Villagers",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-villagers-shifting-seasons",
+   "name": "Villagers: Shifting Seasons",
+   "type": "expansion",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [
+    "demo-villagers"
+   ],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-streets",
+   "name": "Streets",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-neta-tanka",
+   "name": "Neta-Tanka",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-wyrmspan",
+   "name": "Wyrmspan",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-eclipse-second-dawn-for-the-galaxy",
+   "name": "Eclipse: Second Dawn for the Galaxy",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  },
+  {
+   "id": "demo-who-did-it",
+   "name": "Who Did It?",
+   "type": "base",
+   "status": [
+    "own"
+   ],
+   "friends": [],
+   "themes": [],
+   "styles": [],
+   "baseIds": [],
+   "numPlays": 0
+  }
+ ]
+}

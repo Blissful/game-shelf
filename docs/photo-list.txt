@@ -1,0 +1,128 @@
+# Games read from the shelf photo (21 Nov 2026), kept for reference only.
+# The shelf now comes straight from BGG (Slayde's collection). If something here is
+# missing on BGG, add it there; or as a fallback, copy the line into games.txt.
+
+Captain Sonar
+Aeon's End
+Arkham Horror (2018)
+The Lord of the Rings (2000)          # Taru Sormusten Herrasta, check edition
+Potion Explosion
+Flamme Rouge
+Peacemakers: Horrors of War           # check
+The Quest for El Dorado
+The Quest for El Dorado: Heroes & Hexes
+Space Base
+Wormholes
+Sheriff of Nottingham
+Pelastaja                             # check (Finnish game)
+Star Wars: X-Wing Miniatures Game
+World of Tanks: Miniatures Game
+Aqua                                  # check edition
+Viscounts of the West Kingdom
+Keyper
+Smart10
+Ashes: Rise of the Phoenixborn
+Castles of Mad King Ludwig
+Murano                                # check
+The Quacks of Quedlinburg
+My City
+51st State: Master Set
+Cry Havoc
+Undaunted: Normandy
+Equinox (2023)
+Carcassonne
+Puerto Rico
+Amun-Re
+Photosynthesis
+Metal Gear Solid: The Board Game      # check
+Terraforming Mars: Ares Expedition
+Bärenpark
+The Lord of the Rings: Duel for Middle-earth
+Dragomino                             # check
+Dark Souls: The Board Game
+Dark Souls: The Board Game – Iron Keep Expansion
+Dark Souls: The Board Game – Phantoms Expansion
+Dark Souls: The Board Game – Characters Expansion
+Tsuro
+Dice Forge
+Bloodborne: The Card Game
+Dinosaur World
+The Lord of the Rings: The Card Game
+The Lord of the Rings: The Card Game – The Fellowship of the Ring Saga Expansion
+Fog of Love
+Unlock! Escape Adventures
+Balloon Pop                           # check
+Blue Lagoon
+Thurn and Taxis
+Azul
+Twilight Struggle
+XCOM: The Board Game
+Formula D
+Dungeon Petz
+Katamino
+Smile                                 # check
+Port Royal
+Caylus
+Dominion
+Dominion: Prosperity                  # Nousukausi
+Yamataï
+Takenoko
+Seasons
+Lords of Xidit
+Galaxy Trucker
+Roll Player
+Copenhagen: Roll & Write
+Splendor
+Wingspan
+Mariposas
+Harmonies
+Star Realms
+The Crew: The Quest for Planet Nine
+Citadels
+Air, Land & Sea: Spies, Lies & Supplies
+Forest Shuffle
+For Sale
+Codenames
+The Settlers of Catan Card Game
+SCOUT
+Bohnanza
+Star Munchkin
+Catan
+Ghost Stories
+Bunny Kingdom
+King of Tokyo                         # check
+Sushi Go!
+A Fake Artist Goes to New York
+The Game
+Century: Spice Road
+Ra
+Amul                                  # check
+The Mind
+Patchwork
+Taco Cat Goat Cheese Pizza
+Wizard
+Rage (1983)                           # check
+Dixit
+Dinner in Paris
+Red Rising
+Cosmic Encounter
+Dale of Merchants Collection
+The Isle of Cats
+Terraforming Mars
+Elysium
+Ticket to Ride                        # Menolippu
+The Great Wall
+Alchemists
+Kluster
+Mag·Blast (Third Edition)
+Dune: Imperium
+Flamecraft
+Thunder Alley
+Cascadia
+Villagers
+Villagers: Shifting Seasons
+Streets (2023)                        # check
+Neta-Tanka                            # check
+Wyrmspan
+Eclipse: Second Dawn for the Galaxy
+Who Did It?                           # check

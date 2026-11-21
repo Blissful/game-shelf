@@ -1,0 +1,8 @@
+# Optional fallback list. Normally you don't need this file:
+# the shelf comes straight from the BGG collection set in config.json.
+#
+# Use it only for a game you can't or don't want to log on BGG. One per line:
+#   Wingspan                 a name
+#   Arkham Horror (2018)     a name with year, to pick the right edition
+#   266192                   a BGG id (or a full boardgamegeek.com link)
+# After a sync, data/sync-report.json shows what each line matched.

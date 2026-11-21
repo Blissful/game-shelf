@@ -1,0 +1,22 @@
+<item type="boardgame" id="266192">
+  <thumbnail>https://cf.geekdo-images.com/x/thumb/wingspan.jpg</thumbnail><image>https://cf.geekdo-images.com/x/img/wingspan.jpg</image>
+  <name type="primary" sortindex="1" value="Wingspan"/><name type="alternate" sortindex="1" value="Siipiveikot"/>
+  <description>Wingspan is a competitive, medium-weight, card-driven, engine-building board game.&#10;&#10;You are bird enthusiasts&amp;mdash;researchers, bird watchers.&#10;</description>
+  <yearpublished value="2019"/><minplayers value="1"/><maxplayers value="5"/>
+  <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="100">
+    <results numplayers="1"><result value="Best" numvotes="10"/><result value="Recommended" numvotes="50"/><result value="Not Recommended" numvotes="20"/></results>
+    <results numplayers="2"><result value="Best" numvotes="30"/><result value="Recommended" numvotes="60"/><result value="Not Recommended" numvotes="5"/></results>
+    <results numplayers="3"><result value="Best" numvotes="80"/><result value="Recommended" numvotes="30"/><result value="Not Recommended" numvotes="1"/></results>
+    <results numplayers="5+"><result value="Best" numvotes="0"/><result value="Recommended" numvotes="2"/><result value="Not Recommended" numvotes="40"/></results>
+  </poll>
+  <poll-summary name="suggested_numplayers" title="x"><result name="bestwith" value="Best with 3 players"/></poll-summary>
+  <playingtime value="70"/><minplaytime value="40"/><maxplaytime value="70"/><minage value="10"/>
+  <poll name="language_dependence" title="Language Dependence" totalvotes="50"><results><result level="1" value="No necessary in-game text" numvotes="2"/><result level="2" value="Some necessary text" numvotes="5"/><result level="3" value="Moderate in-game text" numvotes="40"/></results></poll>
+  <link type="boardgamecategory" id="1089" value="Animals"/><link type="boardgamecategory" id="1002" value="Card Game"/>
+  <link type="boardgamemechanic" id="2041" value="Card Drafting"/><link type="boardgamemechanic" id="2072" value="Dice Rolling"/><link type="boardgamemechanic" id="2002" value="Tile Placement"/>
+  <link type="boardgameexpansion" id="290837" value="Wingspan: Oceania Expansion"/>
+  <link type="boardgamedesigner" id="1" value="Elizabeth Hargrave"/><link type="boardgamepublisher" id="2" value="Stonemaier Games"/>
+  <videos total="3"><video id="1" title="Wingspan - How to Play" category="instructional" language="English" link="http://www.youtube.com/watch?v=abc" username="x" userid="1" postdate="2019-03-01T00:00:00-06:00"/><video id="2" title="Review" category="review" language="English" link="http://www.youtube.com/watch?v=def" postdate="2019-04-01"/><video id="3" title="Wingspan - Säännöt" category="instructional" language="Finnish" link="http://www.youtube.com/watch?v=fin" postdate="2020-01-01"/></videos><statistics page="1"><ratings><usersrated value="120000"/><average value="8.03"/><bayesaverage value="7.9"/>
+    <ranks><rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="32" bayesaverage="7.9"/><rank type="family" id="5497" name="strategygames" value="40"/></ranks>
+    <averageweight value="2.48"/></ratings></statistics>
+</item>

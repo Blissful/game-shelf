@@ -1,0 +1,16 @@
+{
+  "name": "game-shelf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A cosy virtual board game shelf, synced from BoardGameGeek and hosted on GitHub Pages.",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "test:sync": "BGG_MOCK=test/fixtures SHELF_CONFIG=test/config.json SHELF_GAMES=test/games.txt SHELF_EXTRAS=test/extras.json SHELF_SITE=test/out/site SHELF_DATA=test/out/data node scripts/sync.mjs",
+    "serve": "npx --yes http-server site -p 8080 -c-1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.0",
+    "sharp": "^0.34.0"
+  }
+}
