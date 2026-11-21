@@ -20,6 +20,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -28,14 +30,19 @@ jobs:
           node-version: 22
 
       - name: Install
+        if: env.BGG_TOKEN != ''
         run: npm install --no-audit --no-fund
 
       - name: Sync from BoardGameGeek
-        env:
-          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
+        if: env.BGG_TOKEN != ''
         run: node scripts/sync.mjs
 
+      - name: No BGG token yet
+        if: env.BGG_TOKEN == ''
+        run: echo "::notice::BGG_TOKEN secret not set yet, so publishing the shelf without syncing (demo data until the first sync)."
+
       - name: Save updated data
+        if: env.BGG_TOKEN != ''
         run: |
           git config user.name "shelf-bot"
           git config user.email "shelf-bot@users.noreply.github.com"
